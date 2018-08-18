@@ -17,13 +17,18 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-header nav ul li {
-    list-style-type: none;
+header nav ul:first-child {
+    margin-left:0%;
 }
 
-header nav ul>li:not:first-child {
+header nav ul li {
+    list-style-type: none;
     margin-left: 4%;
 }
+
+/*header nav ul li {*/
+/*    margin-left: 4%;*/
+/*}*/
 
 nav {
     display: inline;
