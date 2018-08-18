@@ -19,11 +19,10 @@ header nav ul li a:hover {
 
 header nav ul li {
     list-style-type: none;
-    margin-left: 4%;
 }
 
-header nav ul li #firts-li {
-    margin-left:0px;
+header nav ul:not:first-child {
+    margin-left: 4%;
 }
 
 nav {
@@ -123,7 +122,7 @@ div #contscts>button, input {
     align-items:center;
 }
 
-#client-name {
+.client-name {
     width:243px;
 }
 
